@@ -52,12 +52,14 @@ To retrieve the list of users and their properties, an API is provided. Here are
     "email": "aaron@mailinator.com",
     "role": "member"
   },
+  
   {
     "id": "2",
     "name": "Aishwarya Naik",
     "email": "aishwarya@mailinator.com",
     "role": "member"
   },
+  
   {
     "id": "3",
     "name": "Arvind Kumar",
