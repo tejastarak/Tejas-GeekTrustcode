@@ -77,18 +77,27 @@ const MainUserInterface = () => {
 
   const handleFirstpage = () => {
     setCurrentPage(1);
+    setSelectedRows([])
   };
   const handlePrivespage = () => {
     setCurrentPage(currentPage - 1);
+    setSelectedRows([])
+
   };
   const handleNextpage = () => {
     setCurrentPage(currentPage + 1);
+    setSelectedRows([])
+
   };
   const handleLastpage = () => {
     setCurrentPage(totalPages);
+    setSelectedRows([])
+
   };
   const handleClickpage = (page) => {
     setCurrentPage(page);
+    setSelectedRows([])
+
   };
 
   // Checkbox function
