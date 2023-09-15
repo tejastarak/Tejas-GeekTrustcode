@@ -1,5 +1,5 @@
 # Admin User Interface
-My Project Website Url https://rambabu-geektrust-challenge-code.netlify.app/
+My Project Website Url https://tejas-geektrust.netlify.app/
 
 ## How to Run This Project
 
