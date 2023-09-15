@@ -4,7 +4,7 @@ My Project Website Url https://rambabu-geektrust-challenge-code.netlify.app/
 ## How to Run This Project
 
 clone the repo with
-$git clone https://github.com/RamSun6691/Rambabu-GeekTrust.git
+$git clone https://github.com/tejastarak/Tejas-GeekTrustcode.git
 
 install all the dependcies
 
@@ -12,7 +12,7 @@ $npm install
 
 Start react app
 
-cd Rambabu-GeekTrust
+cd Tejas-GeekTrustcode
 
 $npm start
 
