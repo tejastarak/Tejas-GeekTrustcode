@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./EditModel.css"
 
 const EditModel = ({ isEditingRowdata, setIsModalOpen, handlClickSave }) => {
   const [editItem, setEditItem] = useState({ ...isEditingRowdata });

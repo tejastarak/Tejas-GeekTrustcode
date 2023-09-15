@@ -1,6 +1,7 @@
 import React from "react";
 import { BiSolidEdit } from "react-icons/bi";
 import { AiOutlineDelete } from "react-icons/ai";
+import "./Table.css"
 
 const Table = ({
   userData,

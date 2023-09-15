@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Config from "../ApiCall/Config";
-import Table from "./Table";
+import Table from "./Table/Table";
 import DeleteSeletedRows from "./DeleteSeletedRows";
 import "../Styles/Styles.css";
 import { toast } from "react-toastify";
-import EditModel from "./EditModel";
+import EditModel from "./EditModel/EditModel";
 import { LiaAngleDoubleLeftSolid } from "react-icons/lia";
 import { LiaAngleLeftSolid } from "react-icons/lia";
 import { LiaAngleRightSolid } from "react-icons/lia";
@@ -177,13 +177,13 @@ const MainUserInterface = () => {
   return (
     <>
       <div className="container">
-        <h2 id="one">Geektrust-admin-Ui</h2>
+       
 
         {/* <div className=""> */}
         <input
-          type="text"
+          type="search"
           name="name"
-          placeholder="Search by name,enail or role"
+          placeholder="Search by name,email or role"
           value={searchQuery}
           onChange={(e) => handleSearch(e)}
           className="search-input"
